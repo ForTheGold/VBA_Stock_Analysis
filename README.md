@@ -29,13 +29,13 @@ The vast majority of the green energy companies were doing a great deal better i
 
 #### 2017 Stock Performance
 
-
+![2017 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 The first year of our analysis, 2017, did not offer great returns for investers.  There were actually only two companies that were in the positive which turned out to be ENPH and RUN, both of which were above 80% returns.  The rest of the stocks were in the negative DQ and JKS producing the worst returns both at less than -60%.  Despite this, nearly all of the companies were still at daily volumes of hundreds of millions except one which was AY.
 
 #### 2018 Stock Performance
 
-
+![2018 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 The vast majority of the green energy stocks were producing positive returns in 2018.  All but one of them produced positive returns.  The stock that produced negative returns was the TERP stock and the all the others produced positive returns.  There were four stocks, DQ, ENPH, FSLR, and SEDG, which produced 100% returns in 2018 making them the top performers.  DQ was the best performer at 199.4% and SEDG a close second at 184.5%. Companies such as SPWR and FSLR had a great number of daily volumes as well.
 
