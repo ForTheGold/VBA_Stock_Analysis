@@ -19,25 +19,25 @@ The vast majority of the green energy companies were doing a great deal better i
 
 #### 2017 Results
 
-
+![2017 Stock Performance and Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 #### 2018 Results
 
-
+![2018 Stock Performance And Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ### Stock Comparisons
 
 #### 2017 Stock Performance
 
-![2017 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png)
+![2017 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2017%20Results.png)
 
-The first year of our analysis, 2017, did not offer great returns for investers.  There were actually only two companies that were in the positive which turned out to be ENPH and RUN, both of which were above 80% returns.  The rest of the stocks were in the negative DQ and JKS producing the worst returns both at less than -60%.  Despite this, nearly all of the companies were still at daily volumes of hundreds of millions except one which was AY.
+The vast majority of the green energy stocks were producing positive returns in 2017.  All but one of them produced positive returns.  The stock that produced negative returns was the TERP stock and the all the others produced positive returns.  There were four stocks, DQ, ENPH, FSLR, and SEDG, which produced 100% returns in 2017 making them the top performers.  DQ was the best performer at 199.4% and SEDG a close second at 184.5%. Companies such as SPWR and FSLR had a great number of daily volumes as well.
 
 #### 2018 Stock Performance
 
-![2018 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
+![2018 Stock Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2018%20Results.png)
 
-The vast majority of the green energy stocks were producing positive returns in 2018.  All but one of them produced positive returns.  The stock that produced negative returns was the TERP stock and the all the others produced positive returns.  There were four stocks, DQ, ENPH, FSLR, and SEDG, which produced 100% returns in 2018 making them the top performers.  DQ was the best performer at 199.4% and SEDG a close second at 184.5%. Companies such as SPWR and FSLR had a great number of daily volumes as well.
+The following year, 2018, did not offer great returns for investers.  There were actually only two companies that were in the positive which turned out to be ENPH and RUN, both of which were above 80% returns.  The rest of the stocks were in the negative DQ and JKS producing the worst returns both at less than -60%.  Despite this, nearly all of the companies were still at daily volumes of hundreds of millions except one which was AY.
 
 ### Code Optimizations
 
@@ -45,11 +45,13 @@ In the first iteration of the code we opted to write the information to the file
 
 #### Original Code Performance
 
-
+![2017 Original Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2017%20(orig).png)
+![2018 Original Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2018%20(orig).png)
 
 #### Refractored Code Performance
 
-
+![2017 Refractored Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2017%20(Refr).png)
+![2018 Refractored Code Performance](https://github.com/ForTheGold/VBA_Stock_Analysis/blob/main/Resources/2018%20(Refr).png)
 
 ## Summary
 
@@ -66,7 +68,3 @@ There are time when it is better to leave the code alone.  For instance, we do n
 ### Pros and Cons of Optimizing Our Code
 
 Our original code had some serious problems with it.  It takes a great deal of processing power to open a file, write to it, and close it to do further calculations over and over.  This type of operation is much better done all at once.  This was an instance where very clearly we can make a large improvement without a great deal of time spent on fixing the code.  The cons of this is that it takes time.  If we were planning on running this analysis on only twelve stocks as we have now, then there is really no reason to make the code half a second faster as it makes no difference to the user.  This optimization is really only necessary if we are planning to scale this analysis to a much larger number of stocks.
-
-
-
-
